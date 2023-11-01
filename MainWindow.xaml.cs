@@ -34,5 +34,10 @@ namespace GA_JuanHernandez_RTB
         {
             rtbDisplay.Text += " " + txtUserInput2.Text;
         }
+
+        private void btnAppendRTB_Click(object sender, RoutedEventArgs e)
+        {
+            rtbDisplay.Text += " " + rtbDisplay2.Text;
+        }
     }
 }

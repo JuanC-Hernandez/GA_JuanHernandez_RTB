@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Canvas>
-        <RichTextBox Height="294" Width="331" Canvas.Left="434" Canvas.Top="70" HorizontalAlignment="Center" VerticalAlignment="Top">
+        <RichTextBox Height="109" Width="331" Canvas.Left="434" Canvas.Top="70" HorizontalAlignment="Center" VerticalAlignment="Top">
             <FlowDocument>
                 <Paragraph>
                     <Run Text="" Name="rtbDisplay"/>
@@ -20,6 +20,14 @@
         <TextBox x:Name="txtUserInput2" Canvas.Left="280" TextWrapping="Wrap" Canvas.Top="136" Width="120" HorizontalAlignment="Center" VerticalAlignment="Top"/>
         <Label Content="Message To Append:" Canvas.Left="159" Canvas.Top="132" HorizontalAlignment="Center" VerticalAlignment="Top" Width="121"/>
         <Button x:Name="btnAppend" Content="Append" Canvas.Left="280" Canvas.Top="159" HorizontalAlignment="Left" VerticalAlignment="Center" Width="120" Click="btnAppend_Click"/>
+        <RichTextBox Height="21" Width="331" Canvas.Left="434" Canvas.Top="196" HorizontalAlignment="Center" VerticalAlignment="Top">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text="" Name="rtbDisplay2"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Button x:Name="btnAppendRTB" Content="Append Message to Rich Text Box" Canvas.Left="197" Canvas.Top="197" HorizontalAlignment="Left" VerticalAlignment="Top" Width="203" Click="btnAppendRTB_Click"/>
 
     </Canvas>
 </Window>
