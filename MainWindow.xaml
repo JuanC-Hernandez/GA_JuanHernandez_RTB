@@ -6,7 +6,17 @@
         xmlns:local="clr-namespace:GA_JuanHernandez_RTB"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Canvas>
+        <RichTextBox Height="294" Width="331" Canvas.Left="434" Canvas.Top="70" HorizontalAlignment="Center" VerticalAlignment="Top">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text="" Name="rtbDisplay"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <TextBox x:Name="txtUserInput" Canvas.Left="280" TextWrapping="Wrap" Canvas.Top="70" Width="120"/>
+        <Label Content="Type a Message: " Canvas.Left="176" Canvas.Top="66" HorizontalAlignment="Left" VerticalAlignment="Center" Width="99"/>
+        <Button x:Name="btnDisplay" Content="Display" Canvas.Left="280" Canvas.Top="93" HorizontalAlignment="Center" VerticalAlignment="Top" Width="120" Click="btnDisplay_Click"/>
 
-    </Grid>
+    </Canvas>
 </Window>
