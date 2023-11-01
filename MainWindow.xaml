@@ -28,6 +28,7 @@
             </FlowDocument>
         </RichTextBox>
         <Button x:Name="btnAppendRTB" Content="Append Message to Rich Text Box" Canvas.Left="197" Canvas.Top="197" HorizontalAlignment="Left" VerticalAlignment="Top" Width="203" Click="btnAppendRTB_Click"/>
+        <Button x:Name="btnClear" Content="Clear" Canvas.Left="434" Canvas.Top="234" HorizontalAlignment="Center" VerticalAlignment="Top" Width="331" Background="#FFF79797" Click="btnClear_Click"/>
 
     </Canvas>
 </Window>

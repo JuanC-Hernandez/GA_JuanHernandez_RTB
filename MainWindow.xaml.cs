@@ -39,5 +39,11 @@ namespace GA_JuanHernandez_RTB
         {
             rtbDisplay.Text += " " + rtbDisplay2.Text;
         }
+
+        private void btnClear_Click(object sender, RoutedEventArgs e)
+        {
+            rtbDisplay.Text = "";
+            rtbDisplay2.Text = "";
+        }
     }
 }
